@@ -1,0 +1,24 @@
+@import '../variables';
+
+.navigation{
+  display: flex;
+  flex-direction: column;
+  a{
+    padding: 1rem 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    font: 1.125rem;
+    color: $green-300;
+  }
+  a.button{
+    width: 100%;
+    background: $green-300;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    box-shadow: 8px 8px 10px #cccccc;
+    cursor: pointer;
+    margin-bottom: 2.625rem;
+  }
+}
