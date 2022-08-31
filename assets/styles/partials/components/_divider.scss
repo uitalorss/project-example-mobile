@@ -1,0 +1,13 @@
+@import '../variables';
+
+.divider{
+  text-align: center;
+  .item{
+    padding: .25rem;
+    font-size: 1.5rem;
+  }
+  
+  .special-item{
+    color: $green-300;
+  }
+}
