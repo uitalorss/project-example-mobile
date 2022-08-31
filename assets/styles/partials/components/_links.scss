@@ -17,8 +17,11 @@
     color: #ffffff;
     border: none;
     outline: none;
-    box-shadow: 8px 8px 10px #cccccc;
+    box-shadow: 0 4px 10px #A1C3FC;
     cursor: pointer;
     margin-bottom: 2.625rem;
+  }
+  a.special{
+    text-shadow: 0 4px 4px #00000025;
   }
 }
