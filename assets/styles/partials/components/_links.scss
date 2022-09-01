@@ -10,18 +10,53 @@
     font-weight: 500;
     font: 1.125rem;
     color: $green-300;
+    transition: .3s ease background-color;
+    &:hover{
+      color: $green-400;
+    }
   }
   a.button{
     width: 100%;
-    background: $green-300;
+    background-color: $green-300;
     color: #ffffff;
     border: none;
     outline: none;
     box-shadow: 0 4px 10px #A1C3FC;
     cursor: pointer;
     margin-bottom: 2.625rem;
+    transition: .3s ease background-color;
+    &:hover{
+      background: $green-400;
+    }
   }
   a.special{
     text-shadow: 0 4px 4px #00000025;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .navigation{
+    a.button{
+      margin: 0 auto 2.625rem;
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navigation{
+    a.button{
+      margin: 0 auto 1.625rem;
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+  .navigation{
+    a.button{
+      margin: 0 auto 1rem;
+      width: 40%;
+    }
   }
 }

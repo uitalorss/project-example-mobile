@@ -2,6 +2,7 @@
 
 .divider{
   text-align: center;
+  margin: 4rem 0;
   .item{
     padding: .25rem;
     font-size: 1.5rem;
@@ -9,5 +10,23 @@
   
   .special-item{
     color: $green-300;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .divider{
+    margin: 3rem 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .divider{
+    margin: 2rem 0;
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+  .divider{
+    margin: 2rem 0;
   }
 }
