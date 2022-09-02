@@ -11,12 +11,13 @@ body, button{
 
 .container{
   max-width: 80%;
+  height: 100vh;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 480px) {
   .container{
-
+    max-width: 70%;
   }
 }
 
